@@ -21,13 +21,13 @@ html{
 .header #div2{
     font-size: 3em;
     color: white;
-    margin-left: 50px;
+    margin-left: 25px;
     margin-top: 5px;
 }
 .header #div3{
     font-size: 1.5em;
     color: #BBDEFB;
-    margin-left: 50px;
+    margin-left: 25px;
 }
 .variable{
     margin-top: 10px;
@@ -110,13 +110,14 @@ color: white;
 }
 #solveButton{
 background-color: #ECEFF1;
-color: white;
-border: 1px solid #006;
+color: black;
+border: 0px solid;
 transition-duration: .5s;
-transition-property: color;
+transition-property: background-color;
+border-radius: 2px;
 }
 #solveButton:hover{
-color: #CFD8DC;
+background-color: #CFD8DC;
 }
 .sidebar {
     height: 100%;
