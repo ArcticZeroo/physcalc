@@ -111,6 +111,7 @@ color: white;
 #solveButton{
 background-color: #7f7f7f;
 color: white;
+border: 1px solid #006;
 }
 .sidebar {
     height: 100%;
