@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<div class="header"><div id="div2">Welcome</div><div id="div3">Physics Electronic Circuits Calculator</div></div><div class="dshadow-header"></div>
+<head>
+	<link rel='stylesheet' href='style.css'/>
+	<link rel="shortcut icon" href="{Favicon}" />
+	<script src='script.js'></script>
+	<title>Physics Calculator</title>
+</head>
+<body>
+<div id="circMain4">
+<form>
+<h2><input type="button" onclick="togglediv1('circMain4in','toggle1')" id="toggle1" value="-">Power, Voltage, Current, and Resistance</h2>
+<div id="circMain4in">
+<label>Power (P) : </label><input type="number" id="power" value="0" class="variable">W
+<br>
+<label>Voltage (V) : </label><input type="number" id="voltage" value="0" class="variable">V
+<br>
+<label>Current (I) : </label><input type="number" id="current" value="0" class="variableMini"><select id="currentConversion">
+<option value="micro" id="micro">Micro</option>
+<option value="base" id="base" selected="selected">Base</option>
+</select>A
+<br>
+<label>Resistance (R) : </label><input type="number" id="resistance" value="0" class="variable">OHM
+<p>
+    Only enter information into two boxes! It may get "confused" or solve incorrectly otherwise.
+</p><div>
+</form>
+<input type="button" onclick="solve()" value="Solve" id="solveButton">
+</div>
+</div>
+</div>
+<div class="spacer"><hr /></div>
+<div id="circKWH">
+<form>
+<h2><input type="button" onclick="togglediv1('circKWHin','toggle2')" id="toggle2" value="-">Power consumption over time</h2>
+<div id="circKWHin">
+<label>Power Rating : </label><input type="number" id="powerKWH" value="0" class="variable">W
+<br>
+<label>Seconds :</label><input type="number"id="seconds" class="variableShort" value="0">
+<br>
+<label>Minutes : </label><input type="number"id="minutes" class="variableShort" value="0">
+<br>
+<label>Hours : </label><input type="number"id="hours" class="variableShort" value="0">
+<br>
+<label>Days : </label><input type="number"id="days" class="variableShort" value="0">
+<br>
+<label>Months* : </label><input type="number"id="months" class="variableShort" value="0">
+ <i>*Calculated as 30 days, recommended to use days instead</i>
+<br>
+<label>Years : </label><input type="number"id="years" class="variableShort" value="0">
+<br>
+<label>Convert to : </label><select id="KWHConversion">
+<option value="kwh" selected="selected">Kilowatt-Hours</option>
+<option value="joule">Joules</option>
+</select>
+<br>
+<label>Price Per KwH (Optional) : </label>$<input type="number" id="ppKWH" step=".01" class="variableShort" value="0.00">
+<p>
+</p></form><div>
+<input type="button" onclick="energy()" value="Solve" id="solveButton">
+<br>
+<label>Energy Usage : </label><input type="number"id="usage" class="variableShortRead" value="0" readonly><div id="unit">KwH</div>
+<br>
+<label>Cost : </label><input type="text" id="cost" class="variableShortRead" value="$0.00" readonly>
+</div>
+</div>
+</div>
+<div class="footer"><div id="divf1">© Spencer Novick 2015, Liscened Under MIT</div><div id="divf2">Thanks to: Codecademy (Learning JS/HTML/CSS), stackoverflow (fixing code), </div></div>
+</body>
+</html>
