@@ -7,9 +7,6 @@ html{
     font-family: roboto;
     margin-top: -20px;
 }
-h2{
-    padding-top: 10px;
-}
 .header{
     background-color: #2196F3;
     width: 100%;
@@ -24,13 +21,13 @@ h2{
 .header #div2{
     font-size: 3em;
     color: white;
-    margin-left: 50px;
+    margin-left: 25px;
     margin-top: 5px;
 }
 .header #div3{
     font-size: 1.5em;
     color: #BBDEFB;
-    margin-left: 50px;
+    margin-left: 25px;
 }
 .variable{
     margin-top: 10px;
@@ -58,10 +55,8 @@ background-color: #7f7f7f;
 color: white;
 margin-bottom: 15px;
 }
-#main{
+#circMain4{
 padding-top: 100px;
-margin-bottom: 15px;
-width: 75%;
 } 
 .spacer{
 width: 80%;
@@ -114,8 +109,15 @@ background-color: #7f7f7f;
 color: white;
 }
 #solveButton{
-background-color: #7f7f7f;
-color: white;
+background-color: #ECEFF1;
+color: black;
+border: 0px solid;
+transition-duration: .5s;
+transition-property: background-color;
+border-radius: 2px;
+}
+#solveButton:hover{
+background-color: #CFD8DC;
 }
 .sidebar {
     height: 100%;
