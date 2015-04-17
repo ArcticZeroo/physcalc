@@ -142,7 +142,16 @@ color: white;
     margin-top: 5px;
 }
 #git{
+    display: inline;
+}
+a{
 font-style: italic;
-color: #90CAF9;
 display: inline;
+color: #90CAF9;
+text-decoration: none;
+transition-duration: .5s;
+transition-property: color;
+}
+a:hover{
+	color: #42A5F5;
 }
