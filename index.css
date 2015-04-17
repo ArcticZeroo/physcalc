@@ -109,9 +109,14 @@ background-color: #7f7f7f;
 color: white;
 }
 #solveButton{
-background-color: #7f7f7f;
+background-color: #ECEFF1;
 color: white;
 border: 1px solid #006;
+transition-duration: .5s;
+transition-property: color;
+}
+#solveButton:hover{
+color: #CFD8DC;
 }
 .sidebar {
     height: 100%;
