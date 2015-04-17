@@ -7,162 +7,8 @@ html{
     font-family: roboto;
     margin-top: -20px;
 }
-.header{
-    background-color: #2196F3;
-    width: 100%;
-    height: 100px;
-    top: 0;
-    left: 0;
-    z-index: 1000000;
-    position: fixed;
-    text-align: left;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-}
-.header #div2{
-    font-size: 3em;
-    color: white;
-    margin-left: 50px;
-    margin-top: 5px;
-}
-.header #div3{
-    font-size: 1.5em;
-    color: #BBDEFB;
-    margin-left: 50px;
-}
-.variable{
-    margin-top: 10px;
-    background-color: #cfcfcf;
-    color: white;
-    text-align: center;
-}
-.variableMini{
-    margin-top: 10px;
-    background-color: #cfcfcf;
-    color: white;
-    text-align: center;
-}
-select{
-    margin-top: 10px;
-    background-color: #cfcfcf;
-    color: white;
-    text-align: center;
-}
-div input{
-color: black;
-}
-button{
-background-color: #7f7f7f;
-color: white;
-margin-bottom: 15px;
-}
-#circMain4{
-padding-top: 100px;
-} 
-.spacer{
-width: 80%;
-height: 2px;
-left: 0;
-margin-left: -10px;
-padding-left: 10px;
-margin-right: -10px;
-padding-right: 10px;
-z-index: 95;
-background: #fff  no-repeat scroll center;
-}
-.variableShort{
-    margin-top: 10px;
-    background-color: #cfcfcf;
-    color: white;
-    text-align: center;
-	max-width: 50;
-	}
-.variableShortRead{
-    margin-top: 10px;
-    background-color: #dddddd;
-    color: black;
-    text-align: center;
-	max-width: 50;
-	}
-#unit{
-display: inline;
-}
-#tumblr_controls {display:none;}
-body {
-    margin-left: 20px;
-}
-form  { display: table;}
-br     { display: table-row;}
-label { display: table-cell;}
-select {  display: table-cell;
-    margin-right: 5px;
-    margin-bottom: 15px;
-}
-#toggle1{
-display: normal;
-background-color: #7f7f7f;
-color: white;
-margin-top: 20px;
-}
-#toggle2{
-display: normal;
-background-color: #7f7f7f;
-color: white;
-}
-#solveButton{
-background-color: #7f7f7f;
-color: white;
-}
-.sidebar {
-    height: 100%;
-    width: 20px;
-    margin-left: -20px;
-    background-color: #2196F3;
-    z-index: 1005;
-}
-.footer{
-    background-color: #1E88E5;
-    width: 100%;
-    height: 80px;
-    margin-bottom: 0;
-    left: 0;
-    z-index: 100;
-    position: absolute;
-    text-align: left;
-}
-.footer #divf1{
-    font-size: 1.2em;
-    color: white;
-    margin-left: 50px;
-    margin-top: 15px;
-}
-.footer #divf2{
-    font-size: 1em;
-    color: #BBDEFB;
-    margin-left: 50px;
-    margin-top: 5px;
-}
-#git{
-    display: inline;
-}
-a{
-font-style: italic;
-display: inline;
-color: #90CAF9;
-text-decoration: none;
-transition-duration: .5s;
-transition-property: color;
-}
-a:hover{
-	color: white;
-}
-input{
-    display: table-cell;
-    margin-right: 5px;
-    margin-bottom: 15px;
-}
-html{
-    font-family: roboto;
-    margin-top: -20px;
+h2{
+    padding-top: 10px;
 }
 .header{
     background-color: #2196F3;
@@ -212,8 +58,9 @@ background-color: #7f7f7f;
 color: white;
 margin-bottom: 15px;
 }
-#circMain4{
+#main{
 padding-top: 100px;
+padding-bottom: 10px;
 } 
 .spacer{
 width: 80%;
