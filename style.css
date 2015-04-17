@@ -153,5 +153,5 @@ transition-duration: .5s;
 transition-property: color;
 }
 a:hover{
-	color: #42A5F5;
+	color: white;
 }
