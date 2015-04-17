@@ -155,3 +155,6 @@ transition-property: color;
 a:hover{
 	color: white;
 }
+#home{
+    font-style: normal;
+}
